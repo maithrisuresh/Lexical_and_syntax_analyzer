@@ -157,7 +157,7 @@ LRprinttable.append(['   61','   ', '   ', '   ', '   ', '   ', 'r23', '   ', ' 
 LRprinttable.append(['   62','   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', 's50', '   ', 's48', '   ', '   ','   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', ' 63'])
 LRprinttable.append(['   63','   ', '   ', '   ', '   ', '   ', 'r18', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ','   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   '])
 
-f = open("C:/Users/MAITHRI SURESH/Desktop/input1.csv")# hey i have sent you the file input1.csv save that in your deskp 
+f = open("C:/Users/MAITHRI SURESH/Desktop/input1.csv")#write your file path
 
 state = []
 i = 0
