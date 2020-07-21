@@ -64,29 +64,51 @@ VARNUM->id
 
 VARNUM->number
 
+Can be rewritten as :
 
+a->datatype    
 
-a->datatype     A->MAINFUNC
+A->MAINFUNC
 
-b->NL           B->MAIN
+b->NL          
 
-c->begin        C->STMTS
+B->MAIN
 
-d->main         D->STMT
+c->begin       
 
-e->(            E->DECLARE
+C->STMTS
 
-f->)            F->EXPRESSION
+d->main        
 
-g->sc           G->WHILESTMT
+D->STMT
 
-h->do           H->RETURNSTMT
+e->(           
 
-i->end          I->DECVARS
+E->DECLARE
 
-j->comma        J->DECVAR
+f->)           
 
-k->id           K->VARNUM
+F->EXPRESSION
+
+g->sc          
+
+G->WHILESTMT
+
+h->do          
+
+H->RETURNSTMT
+
+i->end          
+
+I->DECVARS
+
+j->comma        
+
+J->DECVAR
+
+k->id          
+
+K->VARNUM
 
 l->equalsto
 
@@ -98,6 +120,7 @@ o->return
 
 p->operator
 
+#New grammar:
 
 
 S'->S
